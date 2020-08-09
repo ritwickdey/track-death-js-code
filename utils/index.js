@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 function doLog({ usedJsFiles, unusedJsFiles, allJsfiles, ignoreTestFile }) {
-  console.log('Test files are', ignoreTestFile ? 'excluded' : 'included');
+  console.log('\nNote: Test files are', ignoreTestFile ? 'excluded' : 'included');
   console.log(
     `\nUsed JS Files: ${usedJsFiles.length}, ununsed: ${unusedJsFiles.length}, Total:${allJsfiles.length}`
   );
