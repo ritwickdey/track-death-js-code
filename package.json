@@ -1,0 +1,13 @@
+{
+  "name": "find-death-code",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "module": "./lib/index.js",
+  "dependencies": {
+    "acorn": "^7.4.0",
+    "acorn-class-fields": "^0.3.6",
+    "acorn-jsx": "^5.2.0",
+    "acorn-static-class-features": "^0.2.3"
+  }
+}
