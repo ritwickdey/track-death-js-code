@@ -1,9 +1,9 @@
-#### Overview: 
+#### Overview
 This is for my personal usage. I have few React projects (started with `CRA template`) with lot of unused files. 
 
 This project will help me to track all unused files at anytime.
 
-#### Usage:
+#### Usage
 ```
 # Setup
 $ git clone https://github.com/ritwickdey/track-death-js-code.git
