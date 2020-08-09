@@ -13,10 +13,16 @@ const indexFile = (function getIndexFile() {
 })();
 
 const deathFileParser = createDeathFileParser();
-const { usedJsFiles, allJsfiles, unusedJsFiles } = deathFileParser.init(
-  indexFile
+
+const ignoreTestFile = true;
+const { usedJsFiles, allJsfiles, unusedJsFiles } = deathFileParser.start(
+  indexFile,
+  {
+    ignoreTestFile,
+  }
 );
 
+console.log("Test files are", ignoreTestFile ? "excluded" : "included");
 console.log(
   `\nUsed JS Files: ${usedJsFiles.length}, ununsed: ${unusedJsFiles.length}, Total:${allJsfiles.length}`
 );
