@@ -26,7 +26,6 @@ Note: Test files are excluded
 
 Used JS Files: 457, ununsed: 81, Total:538
 
-Used JS Files: 457, ununsed: 81, Total:538
 Logs are generated into /Users/<GIT_CLONE_PATH>/track-death-js-code/log
 ```
 
