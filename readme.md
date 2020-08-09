@@ -1,14 +1,15 @@
 #### Overview: 
-This is for my personal usage. I have few React projects (started with CRA template) with lot of unused files. 
+This is for my personal usage. I have few React projects (started with `CRA template`) with lot of unused files. 
+
 This project will help me to track all unused files at anytime.
 
 #### Usage:
 ```
-#Setup
+# Setup
 $ git clone https://github.com/ritwickdey/track-death-js-code.git
 $ cd track-death-js-code && yarn install
 
-#Run
+# Run
 node . /Users/<YOUR_PATH>/cra-project/src/index.js  
 ```
 
